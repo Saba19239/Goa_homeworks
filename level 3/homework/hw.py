@@ -41,7 +41,7 @@
 # დავიცვათ დიდი და პატარა ასოები
 
 # 4) snake_case არის გამოყენებული ცვლადების სახელებისთვის, რადგან ცვლადის სახელს, არ შეიძლება რომ
-#  ცარიელი ადგილი ჰონდეს, ქვედა ტირე ასრულებს ამას, ასევე არ შეიძლება რომ სახელში დიდი ასო შედიოდეს
+# ცარიელი ადგილი ჰონდეს, ქვედა ტირე ასრულებს ამას, ასევე არ შეიძლება რომ სახელში დიდი ასო შედიოდეს
 
 first_name = "saba"
 last_name = "batiashvili"
@@ -49,7 +49,8 @@ favourite_color = "orange"
 
 print( first_name, last_name, favourite_color )
 
-# 5) სიტყვა "bug" ნიშნავს რაღაც შეცდომას კოდში, მაგალითად syntax-ის დარღვევა. debugging არის ერთ-ერთი კომპიუტერული პროცესი, რის დროსაც ჩვენ ანდ სისტემა, 
+# 5) სიტყვა "bug" ნიშნავს რაღაც შეცდომას კოდში, მაგალითად syntax-ის დარღვევა. debugging 
+# არის ერთ-ერთი კომპიუტერული პროცესი, რის დროსაც ჩვენ ანდ სისტემა, 
 # პოულობს შეცდომებს, და ასწორებს მათ
 
 # 6)
@@ -57,45 +58,44 @@ print( first_name, last_name, favourite_color )
 # 1. name = "Lika"
 #    print(namme)
 
-# name = "Lika"
-# print(name)
+name = "Lika"
+print(name)
 
 # 2. number = 5
 #    text = " apples"
 #    result = number + text
 #    print(result)
 
-# number = 5
-# text = "apples"
-# result = number , text
-# print(result)
+number = 5
+text = "apples"
+result = str(number ) +  text
+print(result)
 
 # 3. name = liKa
 #    name2 = naame + "4"
 
-# name = lika
-# name2 = name + 4
+name = "lika"
+name2 = name + "4"
 
 # 4. first_user = "Lika"
 #    2nduser = "Giorgi"
 #    print(first user)
 
-# first_user = "Lika"
-# 2nduser = "Giorgi"
-# print(first_user)
+first_user = "Lika"
+seconduser = "Giorgi"
+print(first_user)
 
-# 5. first name = Data
-#    last % name = "random"
-
-# 
+#  5. first name = Data
+#  last % name = "random"
+ 
 
 # 6. first_user = "Lika"
 #    2nduser = "Giorgi"
 #    print(first user)
 
-# first_user = "Lika"
-# 2nduser = "Giorgi"
-# print(first_user)
+first_user = "Lika"
+seconduser = "Giorgi"
+print(first_user)
 
 
 
