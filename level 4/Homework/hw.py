@@ -17,3 +17,6 @@ num_3 = float(input("please enter a number: "))
 average = (num_1 + num_2 + num_3)/3
 
 print(average)
+
+
+

@@ -68,7 +68,7 @@ print(name)
 
 number = 5
 text = "apples"
-result = str(number ) +  text
+result = str(number) + text
 print(result)
 
 # 3. name = liKa
