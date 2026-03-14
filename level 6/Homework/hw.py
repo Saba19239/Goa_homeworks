@@ -69,6 +69,36 @@ print(type(flt_3))
 print(type(flt_4))
 print(type(flt_5))
 
+#5)
+
+str = "goa"
+
+print(type(str))
+
+int = 10
+
+print(type(int))
+
+float = 1.0
+
+print(type(float))
+
+#6)
+
+name_1 = "goa"
+
+name_2 = "goa1"
+
+print(name_1 +" "+ name_2)
+
+
+
+
+
+
+
+
+
 
 
 
