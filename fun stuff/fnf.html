@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Coin Flip Game</h2>
+
+<button onclick="flipCoin()">Flip Coin</button><br><br>
+<button onclick="checkWin()">Win</button><br><br>
+<button onclick="buyUpgrade()">Buy +1% Tails Chance</button>
+
+<p id="result"></p>
+<p id="tailsCount">Tails: 0</p>
+<p id="coins">Coins: 0</p>
+<p id="chance">Tails Chance: 50%</p>
+<p id="cost">Upgrade Cost: 10 coins</p>
+
+<script>
+let tails = 0;
+let coins = 0;
+let tailsChance = 0.5;
+let upgradeCost = 10;
+
+function flipCoin() {
+    let result = Math.random() < tailsChance ? "Tails" : "Heads";
+    document.getElementById("result").textContent = result;
+
+    if (result === "Tails") {
+        tails++;
+        coins++;
+    }
+
+    document.getElementById("tailsCount").textContent = "Tails: " + tails;
+    document.getElementById("coins").textContent = "Coins: " + coins;
+}
+
+function checkWin() {
+    if (tails >= 10) {
+        alert("You win!");
+    } else {
+        alert("Not yet! You need " + (10 - tails) + " more tails.");
+    }
+}
+
+function buyUpgrade() {
+    if (coins >= upgradeCost) {
+        coins -= upgradeCost;
+        tailsChance += 0.01;
+        upgradeCost++; // 🔥 increases cost by 1 each time
+
+        document.getElementById("coins").textContent = "Coins: " + coins;
+        document.getElementById("chance").textContent = 
+            "Tails Chance: " + Math.round(tailsChance * 100) + "%";
+        document.getElementById("cost").textContent = 
+            "Upgrade Cost: " + upgradeCost + " coins";
+    } else {
+        alert("Not enough coins!");
+    }
+}
+</script>
+
+</body>
+</html>
