@@ -32,7 +32,7 @@ print(20-5)
 print(10*5)
 print(20*5)
 
-Print(10/5)
+print(10/5)
 print(20/5)
 
 print(25%7)
