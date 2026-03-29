@@ -45,11 +45,11 @@ print(6 <= 3)
 #---------
 #3)
 
-# 1) and
+# 1) 
 print(True and True)    
 print(True and False)
 
-print(True or False)
+print(True or True)
 print(True or False)
 
 
