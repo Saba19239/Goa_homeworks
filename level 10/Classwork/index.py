@@ -14,5 +14,6 @@ for q in range(12, 87):
 
  for w in range(4, 98, 2):
   print(w)
+
 for e in range(10):
-    print("saba")
+   print("saba")  
