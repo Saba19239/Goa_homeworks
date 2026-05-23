@@ -29,7 +29,7 @@ else:
 age = int(input("შეიყვანე ასაკი: "))
 
 if age < 0:
-    print("არასწორი ინფო, ან უბრალოდ უკუღმა წავიდა შენი წლები")
+    print("არასწორი ინფო")
 elif age <= 12:
     print("ბავშვი ხარ")
 elif age <= 19:
@@ -39,7 +39,7 @@ elif age <= 64:
 elif age <= 120:
     print("ხანში შესული ხართ")
 else:
-    print("გურუ ან ჯადოქარი ხარ, ან კიდევ GOA-ს აკადემიაში ისწავლე პროგრამირება და ახლა უკვდავობა შეგეყარა")
+    print("გურუ ან ჯადოქარი ხარ")
 
 
 # 15
@@ -47,3 +47,9 @@ num_1 = float(input("შეიყვანე პირველი რიცხ
 num_2 = float(input("შეიყვანე მეორე რიცხვი: "))
 num_3 = float(input("შეიყვანე მესამე რიცხვი: "))
 
+if num_1 > num_2 and num_2 > num_3:
+  print(num_1)
+elif num_2 > num_1 and num_2 > num_3:
+    print(num_2)
+else :
+  print(num_3)
