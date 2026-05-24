@@ -55,5 +55,5 @@ print(mixed_list[5])
 name = "Saba"
 
 # list ინახავს რამდენიმე მნიშვნელობას ერთად, და შეგიძლია ცალკ-ცალკე გამოიტანო სიაში ყოველი მონაცემი
-names = ["Saba", "Nika", "Luka"]
+names = ["Saba", "Nika", "Luka"] 
 
