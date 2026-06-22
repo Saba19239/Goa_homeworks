@@ -23,7 +23,7 @@ print(colorebiiii)
 
 
 
-# 4) ტექსტის უკუღმა შემოტრიალება
+# 4) 
 word = "Python"
 
 reversed_word = word[::-1]
