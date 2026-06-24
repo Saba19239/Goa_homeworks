@@ -6,8 +6,8 @@ name_1 = str(input("enter your name here: "))
 
 name_2 = str(input("enter your name here: "))
 
-print(name.upper())
+print(name.lower())
 
 print(name_1.upper())
 
-print(name_2.upper())
+print(name_2.capitalize())
