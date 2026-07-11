@@ -13,7 +13,7 @@ if (age >= 18) {
 
 let day = "zangebis archevani";
 
-switch (zangi) {
+switch ("") {
     case "1":
         console.log("zangi1");
         break;
@@ -26,9 +26,3 @@ switch (zangi) {
     default:
         console.log("zangi4")
 }
-
-let zangi12 = "zangebs"
-
-const zangi13 = "zangs da zangebs"
-
-print(zangi12, zangi13)
