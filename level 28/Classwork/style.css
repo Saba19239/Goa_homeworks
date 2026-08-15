@@ -1,16 +1,74 @@
-body{
-    background-color: rgb(250, 250, 250);
-    font-size: large;
+/* General  styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #111;
+    color: white;
     text-align: center;
+    padding: 25px;
 }
 
-title{
-    background-color: black;
-    font-size: small;
+.title {
+    font-size: 36px;
+    margin-bottom: 20px;
 }
 
-BMW{
-    background-color: blue;
-    font-size: small;
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+}
 
+nav a:hover {
+    color: #ff3333;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #ccc;
+    margin: 0;
+}
+
+section {
+    background-color: white;
+    width: 80%;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+h2 {
+    color: #d40000;
+    font-size: 28px;
+    border-bottom: 2px solid #d40000;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #333;
+    font-size: 20px;
+}
+
+ul {
+    line-height: 2;
+    padding-left: 25px;
+}
+
+li {
+    font-size: 17px;
+}
+
+.BMW {
+    color: #0066cc;
 }
