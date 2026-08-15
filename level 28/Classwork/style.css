@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(250, 250, 250);
+    font-size: large;
+    text-align: center;
+}
+
+title{
+    background-color: black;
+    font-size: small;
+}
+
+BMW{
+    background-color: blue;
+    font-size: small;
+
+}
