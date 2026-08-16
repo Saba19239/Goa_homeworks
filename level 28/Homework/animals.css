@@ -1,0 +1,45 @@
+body {
+    background-color: #eef7e8;
+    color: #333;
+}
+
+header {
+    background-color: #245501;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    font-size: 45px;
+}
+
+header p {
+    font-size: 20px;
+}
+
+.animal {
+    background-color: white;
+    border: 3px solid #4d7c0f;
+    padding: 20px;
+}
+
+.animal h2 {
+    color: #356600;
+    font-size: 30px;
+}
+
+.animal p {
+    font-size: 18px;
+}
+
+.animal {
+    background-color: #f0ffe5;
+}
+
+footer {
+    background-color: #245501;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
