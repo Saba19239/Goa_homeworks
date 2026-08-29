@@ -1,0 +1,17 @@
+p {
+    color: red;
+    background-color: brown;
+    text-align: center;
+}
+
+.heading {
+    color: blue;
+    background-color: yellow;
+    text-align: center;
+}
+
+#main-heading {
+    color: green;
+    background-color: black;
+    text-align: center;
+}
