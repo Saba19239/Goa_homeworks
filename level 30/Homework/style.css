@@ -1,0 +1,16 @@
+button {
+    color: white;
+    background-color: gray;
+    padding: 10px 20px;
+    margin: 5px;
+}
+
+.first {
+    color: black;
+    background-color: yellow;
+}
+
+#special {
+    color: white;
+    background-color: green;
+}
