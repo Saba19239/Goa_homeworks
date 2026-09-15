@@ -1,0 +1,41 @@
+/*3)შექმენით 5 ელემენტი RGB თი და 5 HEX ფერების სიატემით */
+
+.rgb1{
+    color: rgb(255, 0, 0);
+}
+
+.rgb2{
+    color: rgb(0, 255, 0);
+}
+
+.rgb3{
+    color: rgb(0, 0, 255);
+}
+
+.rgb4{
+    color: rgb(255, 0, 255);
+}
+
+.rgb5{
+    color: rgb(0, 0, 0);
+}
+
+.hex1 {
+    color: #ff1493;
+}
+
+.hex2 {
+    color: #008080;
+}
+
+.hex3 {
+    color: #800000;
+}
+
+.hex4 {
+    color: #4b0082;
+}
+
+.hex5 {
+    color: #228b22;
+}

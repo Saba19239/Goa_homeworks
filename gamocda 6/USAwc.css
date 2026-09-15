@@ -1,0 +1,55 @@
+/* 6)შექმენით ვებსაიტი თქვენს სასურველ თემაზე გამოიყენეთ ნასწავლი მასალა და css  საიტზე უნდა იყოს მინიმუმ 3 გვერდი და ნავიგაცია  */
+
+.usa {
+  color: blue;
+}
+
+.canada {
+  color: red;
+}
+
+.mexico {
+  color: green;
+}
+
+h1 {
+  text-align: center;
+}
+
+p,h1{
+    margin: 0;
+    padding: 10px 0;
+}
+
+body {
+    padding: 0px;
+  margin: 0;
+  overflow: hidden;
+}
+
+.background{ 
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+    width: 100%;
+    overflow: hidden;
+}
+
+.winner{
+    color: rgb(250, 189, 0);
+}
+
+.runnerup{
+    color: rgb(116, 172, 223);
+}
+
+.upset{
+    color: rgb(0, 43, 127);
+}
+
+.dissapoint{
+    color:      (0, 0, 0);
+}

@@ -1,0 +1,55 @@
+/* 6)შექმენით ვებსაიტი თქვენს სასურველ თემაზე გამოიყენეთ ნასწავლი მასალა და css  საიტზე უნდა იყოს მინიმუმ 3 გვერდი და ნავიგაცია  */
+
+.ru {
+  color: rgb(225, 225, 225);
+}
+
+.ss {
+  color: blue;
+}
+
+.ia {
+  color: red;
+}
+
+h1 {
+  text-align: center;
+}
+
+p,h1{
+    margin: 0;
+    padding: 10px 0;
+}
+
+body {
+    padding: 0px;
+  margin: 0;
+  overflow: hidden;
+}
+
+.background{ 
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+    width: 100%;
+    overflow: hidden;
+}
+
+.winner{
+    color: rgb(0, 35, 149);
+}
+
+.runnerup{
+    color: rgb(222, 24, 24);
+}
+
+.upset{
+    color: rgb(0, 50, 160);
+}
+
+.dissapoint{
+    color: rgb(0, 0, 0);
+}

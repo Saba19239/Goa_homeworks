@@ -1,0 +1,37 @@
+
+h1 {
+  text-align: center;
+  color:brown
+}
+
+p,h1{
+    margin: 0;
+    padding: 10px 0;
+}
+
+.background{ 
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+    width: 100%;
+    overflow: hidden;
+}
+
+.winner{
+    color: rgb(116, 172, 223);
+}
+
+.runnerup{
+    color: rgb(0, 35, 149);
+}
+
+.upset{
+    color: rgb(193, 39, 45);
+}
+
+.dissapoint{
+    color: rgb(250, 189, 0);
+}
