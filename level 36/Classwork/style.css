@@ -1,0 +1,23 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 500px;
+    border-collapse: collapse;
+    color: #222;
+}
+
+th, td {
+    border: 1px solid #d3d3d3;
+    text-align: left;
+}
+
+th {
+    background-color: #e0e0e0;
+}
+
+td {
+    background-color: #fff;
+}
