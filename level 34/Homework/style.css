@@ -18,7 +18,7 @@ h1 {
 }
 
 h2 {
-    color: #a65320;
+    color: red;
     font-family: Georgia, serif;
 }
 
@@ -32,7 +32,7 @@ p {
 }
 
 a:link {
-    color: #a65320;
+    color: red;
 }
 
 a:visited {
