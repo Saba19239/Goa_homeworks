@@ -55,10 +55,3 @@ li:first-child {
 li:last-child {
     font-style: italic;
 }
-
-footer {
-    background-color: gray;
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
