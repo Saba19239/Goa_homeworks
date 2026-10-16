@@ -14,7 +14,7 @@ for i in range(0, 101):
 for i in range(100, 201, 5):
     print(i)
 
-age= 0
+age = 0
 
 while age < 11:
 
