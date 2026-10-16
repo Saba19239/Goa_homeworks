@@ -1,0 +1,63 @@
+.red{
+    color: red;
+    font-size: 30px;
+    text-align: left;
+}
+
+.green{
+    color: green;
+    font-size: 35px;
+    text-align: center;
+}
+
+.blue{
+    color: blue;
+    font-size: 28px;
+    text-align: right;
+}
+
+.yellow{
+    color: yellow;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.pink{
+    color: pink;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.apple{
+    color: red;
+    font-size: 16px;
+}
+
+.grass{
+    color: green;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.blueberry{
+    color: blue;
+    font-size: 20px;
+    font-style: italic;
+    text-align: right;
+}
+
+.banana{
+    color: yellow;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    text-align: left;
+}
+
+.plum{
+    color: pink;
+    font-size: 24px;
+    font-display: block;
+    font-weight: bolder;
+    text-align: center;
+}
