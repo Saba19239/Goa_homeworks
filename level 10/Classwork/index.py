@@ -6,10 +6,10 @@
 
 # 4) for ციკლის მეშვეობით გამოიტანეთ თქვენი სახელი 10-ჯერ.
 
-for i in range(0, 62):
+for i in range(0, 63):
  print(i)
 
-for q in range(12, 87):
+for q in range(12, 88):
  print(q)
 
  for w in range(4, 98, 2):
