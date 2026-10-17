@@ -10,4 +10,4 @@ print(data)
 data.sort(reverse=True)
 print(data)
 
-print(data[::-1])  # ეს აბრუნებს სიის ელემენტების რიგს უკუღმა
+print(data[::-1])
