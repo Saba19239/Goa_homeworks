@@ -1,0 +1,42 @@
+
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    background-color: #14532d;
+    color: white;
+    padding: 25px;
+    margin: 0;
+    border-bottom: 5px solid #facc15;
+}
+
+.intro {
+    color: #14532d;
+    font-size: 20px;
+    margin: 25px;
+}
+
+.card {
+    background-color: white;
+    width: 70%;
+    border: 3px solid #16a34a;
+    padding: 15px;
+    margin: 20px auto;
+}
+
+.card h2 {
+    color: #166534;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 10px;
+}
+
+.card p {
+    color: #333333;
+    font-size: 16px;
+}
+
+
