@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 80%;
+    height: 500px;
+    border: 1px solid gray;
+    padding: 20px;
+    margin: 50px auto;
+}
+
+.item {
+    height: 83px;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.item:nth-child(1) {
+    background-color: green;
+}
+
+.item:nth-child(2) {
+    background-color: blue;
+}
+
+.item:nth-child(3) {
+    background-color: yellow;
+}
