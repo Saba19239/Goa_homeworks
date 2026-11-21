@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #eeeeee;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+.container {
+    background-color: white;
+    width: 70%;
+    margin: 40px auto;
+    padding: 25px;
+    text-align: center;
+    border: 1px solid;
+}
+
+.courses {
+    background-color: #dddddd;
+    padding: 20px;
+    width: 180px;
+    border: 1px solid gray;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+    margin: auto;
+    text-align: left;
+}
+
+input, select {
+    padding: 10px;
+}
+
+button {
+    background-color: darkgray;
+    color: white;
+    padding: 12;
+    border: none;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: gray;
+}
