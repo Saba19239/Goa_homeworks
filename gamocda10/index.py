@@ -132,3 +132,4 @@ def jamiii(listt):
     return summm
 
 print(jamiii([5, 10, 15, 20]))
+
